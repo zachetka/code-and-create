@@ -10,12 +10,12 @@
 <body>
     <div class="container">
         <!-- Section-1 -->
-        <section class="section-1">
+        <section id="home" class="section-1">
             <nav class="navbar">
-                <a href="#" class="navbar-link">Design</a>
-                <a href="#" class="navbar-link">Customers</a>
-                <a href="#" class="navbar-link">Team</a>
-                <a href="#" class="navbar-link">Contact</a>
+                <a href="#home" class="navbar-link">Design</a>
+                <a href="#customers" class="navbar-link">Customers</a>
+                <a href="#team" class="navbar-link">Team</a>
+                <a href="#contact" class="navbar-link">Contact</a>
             </nav>
             <div class="floating-bg"></div>
             <h1 class="section-1-heading">Creative Design</h1>
@@ -25,7 +25,7 @@
         </section>
 
         <!-- Section-2 -->
-        <section class="section-2">
+        <section id="customers" class="section-2">
             <h2 class="section-heading">Customers</h2>
             <div class="customers-wrapper">
                 <div class="customer">
@@ -38,7 +38,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
                     <img src="images/customer-img-1.jpg" alt="customer-1" class="customer-img">
                     <h3 class="customer-name">Jane Lee</h3>
@@ -53,7 +53,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star"></i>
                     </div>
                     <img src="images/customer-img-2.jpg" alt="customer-1" class="customer-img">
                     <h3 class="customer-name">Bob Smith</h3>
@@ -77,7 +77,7 @@
         </section>
 
         <!-- Section-3 -->
-        <section class="section-3">
+        <section id="team" class="section-3">
             <h2 class="section-heading">Team</h2>
             <div class="team-wrapper">
                 <div class="team-member">
@@ -139,6 +139,25 @@
                 </div>
             </div>
         </section>
+
+        <!-- Section-4 -->
+        <section id="contact" class="section-4">
+            <h2 class="section-heading">Contact</h2>
+            <div class="form-container">
+                <img src="images/form-img.png" alt="form-img" class="form-img">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <p class="copyright">Copyright &copy; CodeAndCreate All Rights Reserved</p>
+        </section>
+
+        <a href="#home" class="scroll-up-btn">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
 
     <script src="script.js"></script>
